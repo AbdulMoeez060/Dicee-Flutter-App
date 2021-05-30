@@ -65,37 +65,4 @@ class _DicePageState extends State<DicePage> {
   }
 }
 
-/*class DicePage extends StatelessWidget {
-  int leftDiceNumber = 1, rightDiceNumber = 2;
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Row(
-        children: <Widget>[
-          Expanded(
-            child: TextButton(
-              onPressed: () {
-                print('Left Button Got Pressed.');
-              },
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Image.asset("images/dice$leftDiceNumber.png"),
-              ),
-            ),
-          ),
-          Expanded(
-            child: TextButton(
-              onPressed: () {
-                print('Right Button Got Pressed.');
-              },
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Image.asset("images/dice$rightDiceNumber.png"),
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}*/
+
